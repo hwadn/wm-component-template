@@ -3,9 +3,7 @@ import { Layout } from 'antd'
 import { FormProps } from 'antd/lib/form'
 
 import { StyledHeader, StyledSider } from './style'
-import Component from './Component'
-import Setting from './Setting'
-import { IFormValues, defaultFormValues } from './Setting/default'
+import { Component, Setting, IFormValues, defaultFormValues } from './export'
 
 const { Content } = Layout
 
