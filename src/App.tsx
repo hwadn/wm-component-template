@@ -4,12 +4,13 @@ import { FormProps } from 'antd/lib/form'
 
 import { StyledHeader, StyledSider } from './style'
 import Component from './Component'
-import Setting, { IFormValues } from './Setting'
+import Setting from './Setting'
+import { IFormValues, defaultFormValues } from './Setting/default'
 
 const { Content } = Layout
 
 function App() {
-  const [formValues, setFormValues] = useState<IFormValues>()
+  const [formValues, setFormValues] = useState<IFormValues>(defaultFormValues)
 
 	const handleFormValueChange: FormProps['onValuesChange'] = (_, values) => {
 		setFormValues(values)

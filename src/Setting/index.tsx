@@ -6,10 +6,6 @@ interface ISettingProps {
 	onValuesChange: FormProps['onValuesChange']
 }
 
-export interface IFormValues {
-	text: string
-}
-
 const Setting: React.FC<ISettingProps> = ({ onValuesChange }) => {
 	return (
 		<Form onValuesChange={onValuesChange}>

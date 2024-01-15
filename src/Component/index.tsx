@@ -1,5 +1,5 @@
 import React from 'react'
-import { IFormValues } from '../Setting'
+import { IFormValues } from '../Setting/default'
 import { Button } from 'antd'
 
 interface IComponentProps {
