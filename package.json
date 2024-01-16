@@ -1,6 +1,5 @@
 {
-  "name": "wm-component-template",
-  "private": true,
+  "name": "@wm/component-template",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -12,7 +11,11 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/index.umd.cjs",
+	"wm": {
+		"position": "static",
+		"display": "block"
+	},
+  "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "exports": {
     ".": {
