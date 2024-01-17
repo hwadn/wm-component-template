@@ -18,7 +18,7 @@ export default defineConfig({
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled
       // into your library
-      external: ['react', 'antd'],
+      external: ['react', 'antd', 'react-dom'],
 			input: 'src/export/index.ts',
       output: {
         // Provide global variables to use in the UMD build

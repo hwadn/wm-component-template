@@ -1,6 +1,6 @@
 {
   "name": "@chd1994/component-template",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
 	"author": "",
 	"description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
@@ -11,13 +11,13 @@
     "preview": "vite preview",
 		"pub": "npm publish --access public"
   },
-  "files": [
-    "dist"
-  ],
-  "wm": {
+	"wm": {
     "position": "static",
     "display": "block"
   },
+  "files": [
+    "dist"
+  ],
 	"types": "./dist/index.d.ts",
   "publishConfig": {
     "access": "public",
