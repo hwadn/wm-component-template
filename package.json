@@ -1,8 +1,8 @@
 {
-  "name": "@chd1994/component-template",
-  "version": "0.0.3",
+  "name": "@chd1994/wm-component-template",
+  "version": "0.0.1",
   "type": "module",
-  "author": "",
+  "author": "chd1994",
   "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
   "scripts": {
     "dev": "vite",
