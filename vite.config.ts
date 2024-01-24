@@ -30,9 +30,9 @@ export default defineConfig({
         // Provide global variables to use in the UMD build
         // for externalized deps
         globals: {
-          react: 'react',
+          react: 'React',
 					antd: 'antd',
-					'react-dom': 'react-dom'
+					'react-dom': 'ReactDom'
         },
 				// Provide a global name for your UMD build
 				name: umdName
