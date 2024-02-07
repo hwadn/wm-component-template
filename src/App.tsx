@@ -26,7 +26,7 @@ function App() {
 						<Component formValues={formValues} />
 					</div>
 				</Content>
-				<StyledSider width={460}>
+				<StyledSider width={400}>
 					<Setting onValuesChange={handleFormValueChange} initialValues={defaultFormValues} />
 				</StyledSider>
 			</Layout>
