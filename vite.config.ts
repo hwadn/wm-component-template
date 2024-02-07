@@ -15,7 +15,7 @@ export default defineConfig({
 	build: {
     lib: {
       // Could also be a dictionary or array of multiple entry points
-      entry: resolve(__dirname, 'src/export/index.ts'),
+      entry: resolve(__dirname, 'src/exports/index.ts'),
       name: 'button',
       // the proper extensions will be added
       fileName: 'index',
