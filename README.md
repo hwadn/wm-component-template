@@ -3,6 +3,12 @@
 ## 开发
 
 ```sh
+ yarn add antd react react-dom styled-components -P
+```
+
+and then
+
+```sh
 yarn dev
 ```
 
