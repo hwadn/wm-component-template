@@ -25,7 +25,7 @@ export default defineConfig({
       // make sure to externalize deps that shouldn't be bundled
       // into your library
       external: ['react', 'antd', 'react-dom'],
-			input: 'src/export/index.ts',
+			input: 'src/exports/index.ts',
       output: {
         // Provide global variables to use in the UMD build
         // for externalized deps
