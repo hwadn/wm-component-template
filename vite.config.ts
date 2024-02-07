@@ -15,7 +15,7 @@ export default defineConfig({
 	build: {
     lib: {
       // Could also be a dictionary or array of multiple entry points
-      entry: resolve(__dirname, 'src/export/index.ts'),
+      entry: resolve(__dirname, 'src/exports/index.ts'),
       name: 'button',
       // the proper extensions will be added
       fileName: 'index',
@@ -25,7 +25,7 @@ export default defineConfig({
       // make sure to externalize deps that shouldn't be bundled
       // into your library
       external: ['react', 'antd', 'react-dom'],
-			input: 'src/export/index.ts',
+			input: 'src/exports/index.ts',
       output: {
         // Provide global variables to use in the UMD build
         // for externalized deps

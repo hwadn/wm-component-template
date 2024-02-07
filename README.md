@@ -6,7 +6,7 @@
 yarn dev
 ```
 
-组件：`src/export/Component`
+组件：`src/exports/Component`
 
 组件容器定位如下：`package.json -> wm`
 
@@ -17,7 +17,7 @@ yarn dev
   },
 ```
 
-配置表单：`src/export/Setting
+配置表单：`src/exports/Setting
 `
 
 ## 构建

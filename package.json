@@ -11,10 +11,6 @@
     "preview": "vite preview",
     "pub": "npm publish --access public"
   },
-  "wm": {
-    "position": "static",
-    "display": "block"
-  },
   "files": [
     "dist"
   ],
