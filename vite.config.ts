@@ -8,7 +8,7 @@ const umdName = 'wm_' + pJson.name.replace('@chd1994/wm-', '')
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), dts({ include: ['src/export'] })],
+  plugins: [react(), dts({ include: ['src/exports'] })],
 	define: {
     'process.env': {}
   },
