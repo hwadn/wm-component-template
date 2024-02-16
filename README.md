@@ -14,15 +14,6 @@ yarn dev
 
 组件：`src/exports/Component`
 
-组件容器定位如下：`package.json -> wm`
-
-```json
-  "wm": {
-    "position": "static",
-    "display": "block"
-  },
-```
-
 配置表单：`src/exports/Setting
 `
 
